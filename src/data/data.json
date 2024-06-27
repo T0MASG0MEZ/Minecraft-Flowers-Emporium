@@ -3,103 +3,133 @@
         "title": "Diente de Leon",
         "img": "/flowers/dienteDeLeon.webp",
         "precio": 33,
-        "color": "Amarillo",
+        "color": "amarillo",
         "descripcion" : "Planta común y fácil de encontrar. Su color amarillo ilumina paisajes y es ideal para tinte y decoración. Esencial en cualquier inventario."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Amapola",
+        "img": "/flowers/amapola.webp",
+        "precio": 43,
+        "color": "rojo",
+        "descripcion" : "Una flor común y vistosa que se encuentra en varios biomas del juego. Su diseño es simple pero colorido, con pétalos rojos vibrantes y un tallo verde."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Orquídea azul",
+        "img": "/flowers/orquideaAzul.webp",
+        "precio": 40,
+        "color": "azul",
+        "descripcion" : "Flor de color azul vibrante que se encuentra principalmente en los biomas de pantano. Con su color distintivo, aporta un toque de belleza y contraste a los paisajes del juego. Es una planta decorativa que también puede ser utilizada para crear tinte azul claro."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Allium",
+        "img": "/flowers/allium.webp",
+        "precio": 64,
+        "color": "violeta",
+        "descripcion" : "Flor de color púrpura que añade un toque de elegancia a los entornos del juego. Esta planta se encuentra en biomas de bosque florido y se destaca por su distintivo tono morado. Además de su valor decorativo, el Allium puede ser utilizado para crear tinte magenta."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Tulipán Rosa",
+        "img": "/flowers/tulipanRosa.webp",
+        "precio": 12,
+        "color": "rosa",
+        "descripcion" : "Flor delicada de color rosado que añade un toque suave y encantador a los paisajes del juego. Esta planta se encuentra en biomas de llanuras y bosques floridos. Además de su valor decorativo."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Tulipán Rojo",
+        "img": "/flowers/tulipanRojo.webp",
+        "precio": 12,
+        "color": "rojo",
+        "descripcion": "Flor vibrante de color rojo que aporta un toque de intensidad y belleza a los paisajes del juego. Esta planta se encuentra en biomas de llanuras y bosques floridos. Además de su valor decorativo."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Tulipán Blanco",
+        "img": "/flowers/tulipanBlanco.webp",
+        "precio": 12,
+        "color": "blanco",
+        "descripcion": "Flor elegante de color blanco que añade un toque de pureza y serenidad a los paisajes del juego. Esta planta se encuentra en biomas de llanuras y bosques floridos. Además de su valor decorativo."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Tulipán Naranja",
+        "img": "/flowers/tulipanNaranja.webp",
+        "precio": 12,
+        "color": "naranja",
+        "descripcion": "Flor brillante de color naranja que aporta un toque de calidez y energía a los paisajes del juego. Esta planta se encuentra en biomas de llanuras y bosques floridos. Además de su valor decorativo."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Margarita",
+        "img": "/flowers/margarita.webp",
+        "precio": 23,
+        "color": "blanco",
+        "descripcion": "Flor encantadora de color blanco y amarillo que ilumina los prados y biomas florales del juego. Esta planta se encuentra en biomas de llanuras y bosques, agregando un toque de frescura y simplicidad a su entorno."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Aciano",
+        "img": "/flowers/aciano.webp",
+        "precio": 53,
+        "color": "azul",
+        "descripcion": "Flor de color azul claro que embellece los biomas de bosques y praderas del juego. Esta planta aporta un toque delicado y sereno a su entorno natural. Además de su valor decorativo."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Rosa del Wither",
+        "img": "/flowers/rosaWither.webp",
+        "precio": null,
+        "color": "negro",
+        "descripcion": "Flor oscura y misteriosa que se encuentra únicamente al derrotar al Wither. Esta flor emite un brillo siniestro y esencialmente es una rareza dentro del juego, reflejando su conexión con el poderoso jefe del juego."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Girasol",
+        "img": "/flowers/girasol.webp",
+        "precio": 64,
+        "color": "amarillo",
+        "descripcion": "Flor grande y brillante que sigue la dirección del sol en el juego. Esta planta se encuentra en biomas de girasoles y puede ser utilizada para obtener colorante amarillo."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Lila",
+        "img": "/flowers/lila.webp",
+        "precio": 64,
+        "color": "violeta",
+        "descripcion": "Flor de color morado suave que adorna los biomas de bosque. Esta planta aporta un toque de tranquilidad y belleza natural a su entorno. Además de su función decorativa."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Rosal",
+        "img": "/flowers/rosal.webp",
+        "precio": 64,
+        "color": "rojo",
+        "descripcion": "Flor de color morado suave que adorna los biomas de bosque. Esta planta aporta un toque de tranquilidad y belleza natural a su entorno. Además de su función decorativa."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Peonia",
+        "img": "/flowers/peonia.webp",
+        "precio": 64,
+        "color": "violeta",
+        "descripcion": "Flor grande y exuberante de color rosa que se encuentra en biomas de taiga y bosque. Esta planta destaca por su belleza ornamental, añadiendo un toque distintivo a los paisajes del juego. Además de su valor estético."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Plantorcha",
+        "img": "/flowers/plantorcha.webp",
+        "precio": 64,
+        "color": "amarillo",
+        "descripcion": "Flor luminosa y funcional que emite luz en su entorno. Esta planta única se puede encontrar en biomas de bosques oscuros y pantanos, proporcionando una fuente de luz natural y decorativa que puede ser útil para iluminar áreas sin necesidad de antorchas convencionales."
     },
     {
-        "title": "Diente de Leon",
-        "img": "/flowers/dienteDeLeon.webp",
-        "precio": "33",
-        "color": "Amarillo"
+        "title": "Azure Bluet",
+        "img": "/flowers/azureBluet.webp",
+        "precio": 40,
+        "color": "blanco",
+        "descripcion": "Pequeña y encantadora flor de color azul claro con un centro amarillo. Esta planta es común en biomas de taiga y bosque, añadiendo un toque de color suave y natural a los paisajes del juego. Aunque principalmente decorativa."
+    },
+    {
+        "title": "Convalaria",
+        "img": "/flowers/convalaria.webp",
+        "precio": 33,
+        "color": "blanco",
+        "descripcion": "Flor blanca y delicada que adorna los biomas de taiga y bosque. Esta planta, también conocida como lirio del valle, añade un toque de belleza y elegancia natural a los paisajes del juego."
+    },
+    {
+        "title": "Flor Cian",
+        "img": "/flowers/florCian.webp",
+        "precio": 53,
+        "color": "azul",
+        "descripcion": "Flor Cian es una planta de color cian brillante y vibrante que añade un toque distintivo a los biomas donde se encuentra."
     }
 ]
