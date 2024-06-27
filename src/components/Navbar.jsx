@@ -2,7 +2,7 @@
 
 export function Navbar({ img }) {
     return (
-        <nav className="text-black flex justify-around p-4 bg-white">
+        <nav className="text-black flex fixed w-full justify-around p-4 bg-white">
             <div>
                 <h1 className="text-xl">Minecraft Flowers Emporium</h1>
             </div>

@@ -2,15 +2,33 @@
 import { Cards } from "../components/Cards.jsx"
 import Layout from "../layouts/Layout.astro"
 import Welcome from "../layouts/Welcome.astro"
+import Truck from "../svg/truck.astro"
 ---
 
 <Layout title="Minecraft Flowers Emporium">
-	<div class="flex flex-col gap-4">
+	<section class="flex flex-col gap-4">
 		<Welcome />
-		<Cards />
-	</div>
+		<article class="bg-white">
+			<div class="flex items-center justify-center gap-4 p-8">
+				<Truck class="size-11" />
+				<h2 class="text-4xl">Nuestra coleccion de flores!</h2>
+			</div>
+			<div class="grilla">
+				<Cards />
+			</div>
+		</article>
+	</section>
 </Layout>
 
 <style>
-
+	.grilla {
+		padding: 2rem;
+		max-width: 1440px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(
+			auto-fit, minmax( 300px, 1fr)
+		);
+		gap: 1rem;
+	}
 </style>
