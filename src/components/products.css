@@ -1,0 +1,8 @@
+.grilla {
+    padding: 0.5rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
