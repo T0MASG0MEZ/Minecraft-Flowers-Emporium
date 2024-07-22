@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Contact } from "../assets/svg";
 
 
 export function Footer() {
@@ -13,11 +14,14 @@ export function Footer() {
                         </div>
                         <div className="text-xl">
                             <Link to="/contact">
-                                <strong>Contaco</strong>
+                                <Contact/>
                             </Link>
                         </div>
                     </article>
                 </section>
+                <div className="flex justify-center pt-4 text-black/50">
+                    <h2>© 2024 Tomas Gomez. Casi todos los derechos reservados</h2>
+                </div>
             </footer>
         </>
     )

@@ -39,7 +39,7 @@ export function Contact() {
                                 <input className='border-solid ease-in-out duration-300 shadow-lg shadow-black/5 focus:rounded-sm outline-transparent focus:outline-blue-700 border-2 border-black/10 p-2' type="email" placeholder='Correo:' id='email' name='email' />
 
                                 <label htmlFor="celular"></label>
-                                <input className='border-solid ease-in-out duration-300 shadow-lg shadow-black/5 focus:rounded-sm outline-transparent focus:outline-blue-700 border-2 border-black/10 p-2' type="number" placeholder='Celular:' id='celular' name='celular' />
+                                <input className='border-solid ease-in-out duration-300 shadow-lg shadow-black/5 focus:rounded-sm outline-transparent focus:outline-blue-700 border-2 border-black/10 p-2' type="tel" placeholder='Celular:' id='celular' name='celular' />
 
                                 <label htmlFor="textarea"></label>
                                 <textarea className='border-solid ease-in-out duration-300 shadow-lg shadow-black/5 focus:rounded-sm outline-transparent border-2  focus:outline-blue-700 border-black/10 p-2' placeholder='Describe tu inquietud...' id="mensaje" name="mensaje"/>
