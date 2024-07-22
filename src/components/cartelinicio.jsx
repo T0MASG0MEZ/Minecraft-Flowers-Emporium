@@ -10,7 +10,7 @@ export function Cartelinicio () {
                         <h2 className="text-shadow-pop-br">Bienvenidos a la mejor tienda de flores de Minecraft!</h2>
                     </div>
                 </div>
-                <div className="absolute bottom-0 right-1/2 left-1/2 bounce-top pb-12">
+                <div className="animate-bounce absolute bottom-0 right-1/2 left-1/2  pb-12">
                     <Arrowdown />
                 </div>
             </article>

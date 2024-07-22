@@ -5,7 +5,7 @@ export function Footer() {
     return (
         <>
             <footer className="bg-white flex justify-center flex-col p-4">
-                <hr className="text-black w-3/4 mx-auto" />
+                <div className="bg-black/30 w-3/4 h-[2px] rounded-full mx-auto"></div>
                 <section className="flex pt-6 justify-center">
                     <article className="flex items-center flex-wrap justify-around w-3/4">
                         <div className="w-[200px]">
