@@ -1,6 +1,11 @@
+import { useContext } from 'react';
+import { AppContext } from './context/appcontext';
 import { Esmeralda } from '../assets/svg';
 
 export function Cards({ flores }) {
+
+    const { agregarAlCarrito } = useContext(AppContext)
+
     return (
         <>
             {flores.map(flor => (
@@ -19,7 +24,7 @@ export function Cards({ flores }) {
                                 {flor.precio}
                             </strong>
                         </p>
-                        <a className='text-base font-semibold rounded-xl px-4 py-2 bg-green-600' href="">Agregar al carrito</a>
+                        <button onClick={() => agregarAlCarrito(flor.item)} className='text-base font-semibold rounded-xl px-4 py-2 bg-green-600'>Agregar al carrito</button>
                     </div>
                 </div>
             ))}

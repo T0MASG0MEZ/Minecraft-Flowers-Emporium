@@ -6,7 +6,7 @@ export function Contact() {
                 <article className='h-screen bg-black/40 flex items-center justify-center'>
                     <div className='z-50 bg-white flex items-center justify-center'>
                         <picture className='w-1/2 md:block hidden relative'>
-                            <img className='h-full' src="/public/minecraftfiestas.webp" alt="" />
+                            <img className='h-full' src="/minecraftfiestas.webp" alt="" />
                             <div className='absolute bottom-0 h-36 text-white bg-gradient-to-t from-black/70 from-60% to-black/5 flex items-start justify-end flex-col w-full'>
                                 <div className='flex items-center flex-row-reverse'>
                                     <h2 className='font-black'>Minecraf Flowers Emporium</h2>

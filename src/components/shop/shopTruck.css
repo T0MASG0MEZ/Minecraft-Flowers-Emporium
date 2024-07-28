@@ -1,0 +1,9 @@
+.carrito-grilla {
+    padding: 0.5rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-items: center;
+    gap: 2rem;
+}

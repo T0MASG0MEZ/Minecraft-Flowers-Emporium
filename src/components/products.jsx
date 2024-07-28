@@ -1,15 +1,15 @@
 import { Truck } from "../assets/svg.jsx";
 import { Cards } from "../components/cards.jsx";
-import { flores as initialFlowers } from "../components/data/data.json"
-import { useState } from "react";
 import { useFilters } from "./hook/useFilters.jsx";
 import { Filters } from "./filters.jsx";
 import "./products.css"
 
-export function Products() {
-    const [flores] = useState(initialFlowers)
+export function Products({lasFlores}) {
+
     const { filterProducts } = useFilters()
-    const filteredProducts = filterProducts(flores)
+
+    const filteredProducts = filterProducts(lasFlores)
+
     return (
         <>
             <article className="bg-white">
