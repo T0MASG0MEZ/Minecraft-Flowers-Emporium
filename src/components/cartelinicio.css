@@ -2,6 +2,7 @@
     background: url(/minecraftwallpaper.webp);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .text-shadow-pop-br {
     -webkit-animation: text-shadow-pop-br 0.7s both;

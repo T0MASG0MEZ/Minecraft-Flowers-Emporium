@@ -13,10 +13,10 @@ export function ShopTruck() {
     return (
         <>
             <Navbar />
-            <section className="pt-20">
-                <article className="carrito-grilla">
+            <section className="pt-20 flex justify-center">
+                <article className="flex items-center justify-center flex-col gap-6">
                     {carrito.map(flor => (
-                        <div className="bg-gray-400/60 max-w-[600px] mx-4 hover:scale-105 transition-transform rounded-3xl flex relative items-center justify-around w-full shadow-xl shadow-black/15" key={flor.item}>
+                        <div className="max-w-[600px] border-t-[1px] border-b-[1px] border-black/20 mx-4 hover:scale-105 transition-transform flex relative items-center justify-around w-full" key={flor.item}>
                             <div className="flex flex-col items-center p-4">
                                 <h2 className="font-bold text-xl">{flor.title}</h2>
                                 <img src={flor.img} alt={flor.img} className="size-40" />
@@ -39,28 +39,38 @@ export function ShopTruck() {
                             </div>
                         </div>
                     ))}
-                </article>
-            </section>
-            <aside className="bg-gray-400 rounded-3xl fixed right-0 bottom-0 m-4">
-                {carrito.length === 0 ? (
-                    <div className="p-4 text-xl">No hay ningun producto cargado</div>
-                ) : (
-                    <div className="p-4 flex flex-col gap-3">
-                        <div>
-                            <h2 className="text-xl">Resumen de compra</h2>
-                        </div>
-                        <div>
-                            <p>Total de items: {carrito.reduce((total, flor) => total + flor.cantidad, 0)}</p>
-                            <div className="flex items-center gap-1">
-                                <p>Precio total:</p>
-                                <Esmeralda />
-                                <p>{totalEsmeraldas}</p>
+                    <div className="border-t-[1px] border-black/20 max-w-[600px] w-full border-b-[1px] m-4">
+                        {carrito.length === 0 ? (
+                            <div className="p-4 text-xl">No hay ningun producto cargado</div>
+                        ) : (
+                            <div className="p-4 flex items-center justify-around flex-wrap">
+                                <div>
+                                    <h2 className="text-xl">Resumen de compra</h2>
+                                    <p>Total de items: {carrito.reduce((total, flor) => total + flor.cantidad, 0)}</p>
+                                    <div className="flex items-center">
+                                        <p>Precio total:</p>
+                                        <Esmeralda />
+                                        <p>{totalEsmeraldas}</p>
+                                    </div>
+                                </div>
+                                <button className="px-7 py-3 bg-blue-400/70 rounded-3xl">Comprar</button>
                             </div>
-                        </div>
-                        <button className="p-4 bg-blue-400/70 rounded-3xl w-full">Comprar</button>
+                        )}
                     </div>
-                )}
-            </aside>
+                </article>
+                <picture>
+                    {
+                        carrito.length === 0 ? (
+                            <></>
+                        )
+                        : (
+                            <div className="hidden md:block max-w-[300px]">
+                                <img src="/aldeano.png" alt="Aldeano Minecraft" />
+                            </div>
+                        )
+                    }
+                </picture>
+            </section>
         </>
     );
 }
