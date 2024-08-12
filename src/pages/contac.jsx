@@ -2,7 +2,7 @@ import './contact.css'
 export function Contact() {
     return (
         <>
-            <section className='h-screen background-image-2'>
+            <section className='h-screen w-screen background-image-2'>
                 <article className='h-screen bg-black/40 flex items-center justify-center'>
                     <div className='z-50 bg-white flex items-center justify-center'>
                         <picture className='w-1/2 md:block hidden relative'>
