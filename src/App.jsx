@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Welcome } from "./components/welcome"
 import { FiltersProvider } from "./components/context/filterscontext"
 import { Notfound } from "./pages/notFound"
-import { Contact } from "./pages/contac"
 import { ShopTruck } from "./components/shop/shopTruck"
 import { AppProvider } from "./components/context/appcontext"
+import { CardsDetails } from "./pages/cardsDetails"
 
 function App() {
 
@@ -16,8 +16,8 @@ function App() {
           <FiltersProvider>
             <Routes>
               <Route path="/" element={< Welcome />} />
-              <Route path="/contact" element={< Contact />} />
               <Route path="/shop" element={< ShopTruck />} />
+              <Route path="/shop/:item" element={< CardsDetails />} />
               <Route path="*" element={< Notfound />} />
             </Routes>
           </FiltersProvider>
