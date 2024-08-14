@@ -4,11 +4,9 @@ import { AppContext } from "../context/appcontext";
 import "./shopTruck.css";
 import { Esmeralda } from "../../assets/svg";
 import { Close } from "../../assets/svg";
-
+import { Link } from "react-router-dom";
 export function ShopTruck() {
-    const { carrito, incrementarCantidad, decrementarCantidad, eliminarDelCarrito } = useContext(AppContext);
-
-    const totalEsmeraldas = carrito.reduce((total, flor) => total + (flor.precio * flor.cantidad), 0);
+    const { carrito, incrementarCantidad, decrementarCantidad, eliminarDelCarrito, totalEsmeraldas } = useContext(AppContext);
 
     return (
         <>
@@ -53,7 +51,9 @@ export function ShopTruck() {
                                         <p>{totalEsmeraldas}</p>
                                     </div>
                                 </div>
-                                <button className="px-7 py-3 bg-blue-400/70 rounded-3xl">Comprar</button>
+                                <Link to="/checkout">
+                                    <button className="px-7 py-3 bg-blue-400/70 rounded-3xl">Comprar</button>
+                                </Link>
                             </div>
                         )}
                     </div>

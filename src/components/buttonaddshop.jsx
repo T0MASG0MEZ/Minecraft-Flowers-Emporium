@@ -1,11 +1,13 @@
 import { useContext } from 'react';
 import { AppContext } from './context/appcontext';
+import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 export function Buttonaddshop({ item }) {
     const { agregarAlCarrito, carrito } = useContext(AppContext);
 
     const isInCart = carrito.some((el) => el.item === item);
+    const navigate = useNavigate();
 
     return (
         <button
@@ -15,7 +17,13 @@ export function Buttonaddshop({ item }) {
                         icon: "error",
                         title: "Oops...",
                         text: "Producto ya agregado en carrito",
-                        footer: "<a href='/shop'>Ver carrito</a>",
+                        footer: '<a id="ver-carrito" style="cursor: pointer; color: #3085d6;">Ver carrito</a>',
+                        didRender: () => {
+                            document.getElementById("ver-carrito").addEventListener("click", () => {
+                                navigate('/shop');
+                                Swal.close();
+                            });
+                        },
                     });
                 } else {
                     agregarAlCarrito(item);

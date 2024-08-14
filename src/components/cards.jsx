@@ -8,7 +8,7 @@ export function Cards({ flores }) {
         <>
             {flores.map(flor => (
                 
-                    <div key={flor.item} className='md:m-4 hover:scale-105 transition-transform flex flex-col shadow-xl gap-4 shadow-black/30 max-w-[320px] mx-auto rounded-2xl border-solid border-black/15 border'>
+                    <div key={flor.item} className='md:m-4 hover:scale-105 transition-transform flex flex-col shadow-xl gap-4 shadow-black/10 max-w-[320px] mx-auto rounded-2xl border-solid border-black/15 border'>
                         <picture className='flex items-center justify-center p-4'>
                             <img src={flor.img} alt={"son las flores de " + flor.img} className='bg-slate-500/20 h-60 rounded-2xl w-60' />
                         </picture>

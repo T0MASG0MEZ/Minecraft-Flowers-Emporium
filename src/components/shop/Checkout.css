@@ -1,0 +1,9 @@
+.bg-image-checkout{
+    background-image: url("/castillominecraft.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    min-width: 100vw;   
+}

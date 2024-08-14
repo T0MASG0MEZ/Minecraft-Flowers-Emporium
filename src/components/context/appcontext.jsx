@@ -73,8 +73,10 @@ export function AppProvider({ children }) {
         setCarrito(prevCarrito => prevCarrito.filter(i => i.item !== item));
     }
 
+    const totalEsmeraldas = carrito.reduce((total, flor) => total + (flor.precio * flor.cantidad), 0);
+
     return (
-        <AppContext.Provider value={{ agregarAlCarrito, incrementarCantidad, eliminarDelCarrito, decrementarCantidad, carrito, flores }}>
+        <AppContext.Provider value={{ agregarAlCarrito, incrementarCantidad, eliminarDelCarrito, decrementarCantidad, totalEsmeraldas, carrito, flores }}>
             {children}
         </AppContext.Provider>
     );
