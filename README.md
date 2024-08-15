@@ -9,12 +9,11 @@
 
 ## Caracteristicas
 
-If you have any feedback, please reach out to us at fake@fake.com
-
 Catálogo Completo: Navega a través de una lista completa de flores de Minecraft.
 Carrito de Compras: Añade flores al carrito y procede al pago.
 Filtros de Búsqueda: Encuentra tus flores favoritas usando filtros por nombre y tipo.
 Seguridad: Procesos de compra seguros con opciones de pago múltiples.
+
 ## 🛠 Tecnologias
 react, vite, tailwind, firebase
 
