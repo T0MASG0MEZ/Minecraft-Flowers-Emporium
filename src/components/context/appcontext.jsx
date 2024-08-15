@@ -72,11 +72,14 @@ export function AppProvider({ children }) {
     function eliminarDelCarrito(item) {
         setCarrito(prevCarrito => prevCarrito.filter(i => i.item !== item));
     }
+    const vaciarCarrito = () => {
+        setCarrito([]);
+    };
 
     const totalEsmeraldas = carrito.reduce((total, flor) => total + (flor.precio * flor.cantidad), 0);
 
     return (
-        <AppContext.Provider value={{ agregarAlCarrito, incrementarCantidad, eliminarDelCarrito, decrementarCantidad, totalEsmeraldas, carrito, flores }}>
+        <AppContext.Provider value={{ agregarAlCarrito, incrementarCantidad, eliminarDelCarrito, decrementarCantidad, vaciarCarrito, totalEsmeraldas, carrito, flores }}>
             {children}
         </AppContext.Provider>
     );

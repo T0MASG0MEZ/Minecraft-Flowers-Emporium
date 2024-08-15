@@ -7,7 +7,7 @@ import { Back, Esmeralda } from '../../assets/svg';
 import { Link } from 'react-router-dom';
 export function Checkout() {
 
-    const { carrito, totalEsmeraldas } = useContext(AppContext);
+    const { carrito, totalEsmeraldas, vaciarCarrito } = useContext(AppContext);
     const [pedidoId, setPedidoId] = useState("");
     const { register, handleSubmit } = useForm();
 
@@ -28,6 +28,7 @@ export function Checkout() {
             .catch((error) => {
                 console.log(error);
             });
+        vaciarCarrito();
     }
 
     if (pedidoId) {
@@ -36,9 +37,9 @@ export function Checkout() {
                 <section className='bg-image-checkout'>
                     <article className='w-screen h-screen bg-black/50 flex items-center justify-center'>
                         <div className='bg-white p-6  flex flex-col items-center rounded-2xl'>
-                            <div>
+                            <div className='flex p-6 flex-col items-center text-pretty text-3xl max-w-[350px] text-center gap-4'>
                                 <h2>Gracias por tu compra!</h2>
-                                <p>Tu codigo de pedido es: {pedidoId}</p>
+                                <p>Tu codigo de pedido es: <strong>{pedidoId}</strong></p>
                             </div>
                             <Link to="/">
                                 <Back />
